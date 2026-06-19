@@ -194,7 +194,7 @@ export const Cake3D: React.FC<Cake3DProps> = ({
               </button>
             </form>
 
-            <button className="reset-btn" onClick={handleReset}>
+            <button className="reset-btn" disabled onClick={handleReset}>
               Relight Candles
             </button>
           </div>
